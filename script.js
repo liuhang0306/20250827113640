@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Handle accept button click
     acceptBtn.addEventListener('click', function() {
-        response.textContent = '❤️ 我们在一起吧！';
+        response.textContent = '❤️ 李嘉一，我们在一起吧！';
         response.style.color = '#ff4b4b';
         
         // Create falling hearts
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Handle decline button click (just in case they manage to click it)
     declineBtn.addEventListener('click', function() {
-        response.textContent = '别担心，我会一直等你 ❤️';
+        response.textContent = '李嘉一，别担心，我会一直等你 ❤️';
         response.style.color = '#666';
         
         // Reset button position
